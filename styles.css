@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500');
 
+html
+{
+    scroll-behavior: smooth;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
 *
 {
     outline: none !important;
@@ -58,6 +65,7 @@ p
 .navbar.scrolled .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link:focus
 {
     color: rgba(0, 0, 0, 1);
+    transition: 0.5s;
 }
 
 .navbar-light .navbar-brand,
